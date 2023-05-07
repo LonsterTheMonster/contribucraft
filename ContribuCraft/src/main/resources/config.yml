@@ -1,0 +1,12 @@
+api:
+  url: https://your-woocommerce-site.com/wp-json/wc/v3
+  key: YOUR_API_KEY
+  secret: YOUR_API_SECRET
+check:
+  interval: 600
+messages:
+  noPermission: "&cYou do not have permission to use this command."
+  invalidArguments: "&cInvalid arguments. Usage: %usage%"
+  notPurchased: "&cYou have not purchased this command."
+  cooldown: "&cPlease wait %seconds% seconds before using this command again."
+  unknownError: "&cAn unknown error occurred while processing your command."

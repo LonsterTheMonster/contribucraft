@@ -1,0 +1,22 @@
+name: ContribuCraft
+version: 1.0
+main: com.contribucraft.contribucraft
+author: Lonnie Gibson
+description: A plugin for integrating Minecraft with WooCommerce.
+api-version: 1.12
+commands:
+  contribucraft:
+    description: Main command for the ContribuCraft plugin.
+    usage: /<command> [args]
+    permission: contribucraft.use
+  contribucraft.admin:
+    description: Admin command for the ContribuCraft plugin.
+    usage: /<command> [args]
+    permission: contribucraft.admin
+permissions:
+  contribucraft.use:
+    description: Allows players to use the ContribuCraft plugin.
+    default: true
+  contribucraft.admin:
+    description: Allows admins to use the ContribuCraft admin command.
+    default: op
