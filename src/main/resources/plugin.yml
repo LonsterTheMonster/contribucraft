@@ -1,0 +1,17 @@
+name: ContribuCraft
+main: com.contribucraft.ContribuCraft
+version: 1.0
+authors: [Lonnie GIbson]
+description: A ContribuCraft Minecraft Bridge
+website:  http://ContribuCraft.com
+api-version: 1.13
+
+commands:
+  woo:
+    description: Check
+    usage: |
+      /<command> check - check for donations.
+permissions:
+  woo.admin:
+    default: op
+    description: Allows the player (or console) to use the woo commands.
